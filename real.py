@@ -26,7 +26,7 @@ WHATSAPP_TO2 = "whatsapp:+wh2"
 cloudinary.config(
     cloud_name="cname",
     api_key="capi_key",
-    api_secret="mX_HgHJys0qbf9afJ1Ut-iURXwY"
+    api_secret="cloud seret key"
 )
 
 # ----------------- MODEL CONFIGURATION ------------------
@@ -254,4 +254,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
     
