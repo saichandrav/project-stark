@@ -41,17 +41,15 @@ STARK is an AI-driven security system designed to detect weapons such as guns an
 
 ---
 
-## Directory Structure
 
-project-stark/
-│── models/
-│ └── best.pt
-│── database/
-│ └── alerts.db
-│── utils/
-│ ├── logger.py
-│ ├── notifier.py
-│ └── uploader.py
-│── main.py
-│── requirements.txt
-│── README.md
+
+## prerequisites 
+
+1. twilio :- create a twilio account and get the phone number of twilio account and get the required details of the code like authtoken and sid from profile section !!
+2. create a cloudnary account and get the required details like secret key and api key
+3. make sure that all the packages used in the code are installed properly in your device
+4. replace (0) with the path of cctv camera at the captude function/keyword to connect it to cctv camera
+5. we can even try it out with the webcam or the laptopcamera just donot change the 0 value from the capture function
+6. go to the whatsapp and send the joining chat(eg : join-sample-code ) to twilio phone number to get started with messages
+7. run the python file !!
+8. 
