@@ -15,12 +15,12 @@ def log(msg):
     print(f"[{time.strftime('%H:%M:%S')}] {msg}")
 
 # ----------------- TWILIO CONFIGURATION ------------------
-ACCOUNT_SID = "--"
-AUTH_TOKEN = "--"
+ACCOUNT_SID = "twilio_sid"
+AUTH_TOKEN = "twilio_auth_token"
 
-WHATSAPP_FROM = "whatsapp:+--"
-WHATSAPP_TO1 = "whatsapp:+wh1"
-WHATSAPP_TO2 = "whatsapp:+wh2"
+WHATSAPP_FROM = "whatsapp:twilio_number"
+WHATSAPP_TO1 = "whatsapp:countrycode + user_number1"
+WHATSAPP_TO1 = "whatsapp:countrycode + user_number2"
 
 # ----------------- CLOUDINARY CONFIGURATION--------------------
 cloudinary.config(
@@ -256,3 +256,4 @@ if __name__ == "__main__":
     main()
 
     
+
