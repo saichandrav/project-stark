@@ -52,4 +52,3 @@ STARK is an AI-driven security system designed to detect weapons such as guns an
 5. we can even try it out with the webcam or the laptopcamera just donot change the 0 value from the capture function
 6. go to the whatsapp and send the joining chat(eg : join-sample-code ) to twilio phone number to get started with messages
 7. run the python file !!
-8. 
